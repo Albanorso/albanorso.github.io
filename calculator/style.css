@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Share&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #999;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feccb1+0,f17432+50,ea5507+51,fb955e+100;Red+Gloss+%232 */
+    background: #feccb1; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.calculator {
+    background: #353535;
+    width: 300px;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 6px 0 #a1a1a1, 0 8px 10px rgba(0, 0, 0, 0.5%);
+}
+
+.result {
+    background-color: #cecfac;
+    color: #3b3b32;
+    width: 90%;
+    margin: 8px 0 20px 10px;
+    text-align: right;
+    height: 50px;
+    line-height: 50px;
+    font-size: 35px;
+    padding-right: 10px;
+    overflow: hidden;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.5), inset 0px 2px 0 #a1a1a1;
+    font-family: 'share', cursive;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+    background-color: #4e4e4e;
+    padding: 10px;
+    width: 15%;
+    float: left;
+    color: #fff;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 #a5a5a5, 0 2px 5px rgba(0, 0, 0, 0.75);
+    font-family: 'share', cursive;
+}
+
+ul li:active {
+    position: relative;
+    top: 5px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+ul li:nth-child(16) {
+    height: 75px;
+    line-height: 75px;
+}
+
+ul li:last-child {
+    margin-top: -47px;
+    width: 65%;
+}
+
+
+
+.signature {
+    color: #fff;
+    /* font-family: serif; */
+    font-size: 0.75rem;
+    text-align: right;
+    position: relative;
+    top: 4px;
+    right: 5px;
+    z-index: -1;
+    font-family: 'share', cursive;
+}
+
+
